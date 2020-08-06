@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Demo Application</string>
+    <string name="browser">Browser:</string>
+    <string name="version">Version:</string>
+    <string name="platform">Platform:</string>
+    <string name="geo_location">Geo Location:</string>
+    <string name="rating">Rating:</string>
+    <string name="labels">Labels:</string>
 </resources>
