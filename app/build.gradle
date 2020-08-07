@@ -54,6 +54,8 @@ dependencies {
 
     //last adapter
     implementation "com.github.nitrico.lastadapter:lastadapter:$last_adapter_version"
+    //MpChart
+    implementation "com.github.PhilJay:MPAndroidChart:$mpchart"
 
     // Data binding
     kapt "com.android.databinding:compiler:$data_binding_version"

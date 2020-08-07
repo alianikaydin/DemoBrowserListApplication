@@ -26,7 +26,7 @@ class ListFragment : BaseBindingDaggerViewModelFragment<FragmentListBinding>() {
     }
 
     override fun initView(rootView: View) {
-        viewModel.init(lifecycle)
+        viewModel.init()
         viewModel.itemsLiveData.observe(this, Observer { it ->
             updateRecyclerView(
                 it.map {

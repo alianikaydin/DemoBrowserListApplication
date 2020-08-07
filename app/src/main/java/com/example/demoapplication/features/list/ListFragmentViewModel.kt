@@ -21,9 +21,6 @@ class ListFragmentViewModel @Inject constructor(@ApplicationContext var context:
 
 
     override fun init() {
-    }
-
-    fun init(lifecycle: Lifecycle) {
         val items = getItemsFromJson()
         itemsLiveData.postValue(items)
     }

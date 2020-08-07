@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Demo Application</string>
+    <string name="app_name">Browser List</string>
     <string name="browser">Browser:</string>
     <string name="version">Version:</string>
     <string name="platform">Platform:</string>

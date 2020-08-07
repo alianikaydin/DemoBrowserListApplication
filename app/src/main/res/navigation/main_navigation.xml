@@ -8,7 +8,12 @@
         android:id="@+id/listFragment"
         android:name="com.example.demoapplication.features.list.ListFragment"
         android:label="ListFragment">
+    </fragment>
 
+    <fragment
+        android:id="@+id/chartFragment"
+        android:name="com.example.demoapplication.features.chart.ChartFragment"
+        android:label="ChartFragment">
     </fragment>
 
 </navigation>
